@@ -1,0 +1,7 @@
+npm install -g firebase-tools
+firebase login
+firebase init
+cambiar la ruta por defecto en firebase.json
+firebase deploy --only function:<nombre_de_la_funcion>
+firebase functions:delete helloWorld
+firebase functions:log
